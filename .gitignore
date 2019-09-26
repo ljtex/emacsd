@@ -1,0 +1,7 @@
+# ignore elpa
+elpa
+*.lock
+transient
+words
+*.eld
+smex-items
