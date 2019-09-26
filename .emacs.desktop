@@ -1,0 +1,79 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Sep 26 13:45:16 2019
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23949 1852 10551 0) (desktop . "208") "leojiang@MacBook-Pro.localdomain" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#4E4B3D") (background-color . "#FFFFF8") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "#1B1809") (environment) (frameset--id . "814F-A275-A152-6203") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "MacBook-Pro.localdomain") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 62) (width . 222) (left . 2073) (top . 89)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 28) (min-pixel-width-ignore . 49) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1585) (pixel-height . 854) (total-width . 226) (total-height . 61) (normal-height . 1.0) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 20066) (start . 16277))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("github" "desk" "desktop"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/Documents/misc/contact.txt" "~/.docker/daemon.json" "~/.emacs.d/init.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  nil
+  "*shell*"
+  'shell-mode
+  '(global-auto-revert-mode company-mode projectile-mode yas-minor-mode helm-mode dimmer-mode)
+  20066
+  '(11 nil)
+  nil
+  '(:dir "/Users/leojiang/.emacs.d/")
+  '((buffer-display-time 23949 1773 66768 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/leojiang/.emacs.d/todo.org"
+  "todo.org"
+  'org-mode
+  '(global-auto-revert-mode company-mode projectile-mode yas-minor-mode helm-mode org-indent-mode dimmer-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 23949 434 92285 0) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/leojiang/Documents/misc/contact.txt"
+  "contact.txt"
+  'text-mode
+  '(global-auto-revert-mode company-mode projectile-mode yas-minor-mode helm-mode dimmer-mode)
+  33502
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23948 64323 946687 881000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (33018 33502))))
+
+(desktop-create-buffer 208
+  "/Users/leojiang/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode global-auto-revert-mode company-mode projectile-mode helm-mode paredit-mode compact-docstrings-mode rainbow-mode rainbow-delimiters-mode subword-mode text-scale-mode dimmer-mode)
+  37516
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23948 63824 920470 881000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (34501 218 37493 37516))))
+
+(desktop-create-buffer 208
+  "/Users/leojiang/.docker/daemon.json"
+  "daemon.json"
+  'json-mode
+  '(global-auto-revert-mode company-mode projectile-mode yas-minor-mode helm-mode compact-docstrings-mode rainbow-mode rainbow-delimiters-mode subword-mode dimmer-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23949 1773 66767 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
